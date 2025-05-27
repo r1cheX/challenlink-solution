@@ -1,0 +1,39 @@
+{
+    "name": "challenlink/solution",
+    "description": "Professional PHP solutions for Challenlink coding challenges",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Braul",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "kahlan/kahlan": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Challenlink\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Challenlink\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-kahlan": "kahlan",
+        "run-challenge-01": "php examples/challenge-01.php",
+        "run-challenge-02": "php examples/challenge-02.php",
+        "run-challenge-03": "php examples/challenge-03.php"
+    }
+}

@@ -1,0 +1,25 @@
+# Dependencies
+/vendor/
+/bin/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/logs/
+
+# Cache
+/cache/
+/temp/
+
+# PHP
+*.php~
+*.tmp
